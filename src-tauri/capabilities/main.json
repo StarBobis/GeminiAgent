@@ -1,0 +1,22 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main",
+  "description": "Permissions for the local workbench window.",
+  "windows": ["main"],
+  "permissions": [
+    "allow-select-workspace",
+    "allow-restore-workspace",
+    "allow-browse-workspace",
+    "allow-stage-reply",
+    "allow-resolve-action",
+    "allow-connect-mcp",
+    "allow-disconnect-mcp",
+    "allow-open-gemini",
+    "allow-resize-gemini",
+    "allow-detach-gemini",
+    "allow-inspect-gemini-chat",
+    "allow-send-gemini-message",
+    "clipboard-manager:allow-read-text",
+    "clipboard-manager:allow-write-text"
+  ]
+}
